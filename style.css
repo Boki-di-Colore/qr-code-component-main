@@ -55,6 +55,13 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color: hsl(212, 45%, 89%);
+    font-size: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 main {
@@ -65,15 +72,24 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 50%;
     max-width: 23.4375rem;
     border-radius: 1.25rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+  font-size: 0.6875rem; 
+  text-align: center; 
+}
 
-.container {
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.qr-code {
+    margin: 1rem;
     
-    
+}
+
+img.qr-code {
+    border-radius: 1.25rem;
 }
