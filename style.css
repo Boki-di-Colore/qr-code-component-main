@@ -87,9 +87,10 @@ main {
 
 .qr-code {
     margin: 1rem;
-    
+    border-radius: 20px;
+    /*overflow: hidden;  -- Druga opcija za zaobljene kuteve img*/
 }
 
-img.qr-code {
-    border-radius: 1.25rem;
+.qr-code img {
+      border-radius: inherit;
 }
