@@ -95,7 +95,7 @@ main {
 }
 
 .text h1 {
-  font font-weight: 700;
+  font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.2;
 }
