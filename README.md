@@ -1,2 +1,2 @@
 # qr-code-component-main
-Prvi frontendmentor zadatak
+First frontendmentor challenge
