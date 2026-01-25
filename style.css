@@ -80,12 +80,12 @@ main {
 .qr-code {
     margin: 1rem;
     border-radius: 0.7rem;
-    /* overflow: hidden;  -- Alternative option for round corners on img */
+    overflow: hidden;
 }
 
-.qr-code img {
+/* .qr-code img {
       border-radius: inherit;
-}
+} -- Alternative option for round corners on img */
 
 .text {
   display: flex;
@@ -116,4 +116,34 @@ main {
 
 .attribution a { 
   color: hsl(216, 15%, 48%); 
+}
+
+@media screen and (width > 599px) {
+  main {
+    max-width: 36rem;
+  }
+  .text {
+    max-width: 18.75rem;
+  }
+  .text h1 {
+    font-size: 1.6rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (width > 1199px) {
+  main {
+    max-width: 62.5rem;
+  }
+  .text {
+    max-width: 24rem;
+  }
+  .text h1 {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1.5rem;
+  }
 }
